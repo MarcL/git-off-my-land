@@ -1,5 +1,9 @@
 "use strict";
 
+require("babel-core/register");
+require("babel-polyfill");
+
+
 import {EOL as OSEOL} from "os";
 import test from "ava";
 
