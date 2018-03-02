@@ -5,7 +5,8 @@ import test from "ava";
 
 import {filterFilesList} from "../src/lib/git-off-my-land-lib.js";
 
-test("Correct operation, valid inputs", async (t) => 
+// test("Correct operation, valid inputs", async (t) => 
+test(async (t) => 
 {
     const rawStdOut: string = `A  certs/www.example.com.1.key
 A  certs/www.example.com.2.key
