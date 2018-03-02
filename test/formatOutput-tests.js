@@ -5,7 +5,9 @@ import test from "ava";
 
 import {formatOutput} from "../src/lib/git-off-my-land-lib.js";
 
-test("Correct operation, valid, populated inputs, unsorted -> sorted", async (t) => 
+// just going to try without the comment/label
+// test("Correct operation, valid, populated inputs, unsorted -> sorted", async (t) => 
+test(async (t) => 
 {
     const header = "header";
     const footer = "footer";
