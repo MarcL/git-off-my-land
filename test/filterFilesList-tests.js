@@ -1,20 +1,11 @@
 "use strict";
 
-// import {EOL as OSEOL} from "os";
-// import test from "ava";
+import {EOL as OSEOL} from "os";
+import test from "ava";
 
-// import {filterFilesList} from "../src/lib/git-off-my-land-lib.js";
+import {filterFilesList} from "../src/lib/git-off-my-land-lib.js";
 
-const os = require("os");
-const EOOSEOLL = os.EOL;
-
-const test = require("ava");
-
-const GOML = require("../src/lib/git-off-my-land-lib.js");
-const filterFilesList = GOML.filterFilesList;
-
-// test("Correct operation, valid inputs", async (t) => 
-test(async t => 
+test("Correct operation, valid inputs", async (t) => 
 {
     const rawStdOut: string = `A  certs/www.example.com.1.key
 A  certs/www.example.com.2.key
