@@ -14,7 +14,7 @@ const GOML = require("../src/lib/git-off-my-land-lib.js");
 const filterFilesList = GOML.filterFilesList;
 
 // test("Correct operation, valid inputs", async (t) => 
-test(async (t) => 
+test(async t => 
 {
     const rawStdOut: string = `A  certs/www.example.com.1.key
 A  certs/www.example.com.2.key
