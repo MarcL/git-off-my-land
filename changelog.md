@@ -1,5 +1,8 @@
 # git-off-my-land changelog
 
+## v2.3.0-pre1 (goml-3 branch)
+* Trying: Node 6+ support
+
 ## v2.2.3
 * Fix: incorrect version number!
 
